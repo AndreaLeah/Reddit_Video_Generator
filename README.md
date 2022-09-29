@@ -1,22 +1,21 @@
-Reddit_Video_Generator
-
-This is a python script to fully automate video creation using Reddit posts. 
+# **This is a python script to fully automate video creation using Reddit posts.**
 
 
-Basic Overview:
+**Basic Overview:**
 This fully automates screenshots (Selenium Webdriver, Firefox), text to speech conversion (Amazon Polly), and video generation (ffmpeg) for reddit posts. A ytdownload.py file has been included if you would like to source and download your video from eligible YouTube videos. It is set to choose 1080p, and to resize the video to 1080x1920 resolution.
 
-Steps:
+
+### **Steps:**
 1. Create a keys.py file
 2. Keys.py file should include the following variables:
 
-    # ytdownload.py variables:
+    **ytdownload.py variables:**
     link = 'YouTube video link you'd like to download and resize'
     video = "the name you'd like to save the downloaded video as"
     orig_video_filepath = "absolute path of video variable"
     full_video_filepath = "absolute path for resized variable to go, with name extension included"
 
-    # main.py Variables
+    **main.py Variables**
     url = 'url of Reddit Post'
     vid = 'local video file to use for video background' (Make sure the video is of a minimum resolution of 1080x1920 before starting)
     firefox_profile_path = 'FireFox Profile absolute file path that you wish to use for the Selenium Webdriver screenshots'
@@ -36,7 +35,7 @@ Steps:
     reference_files_plus_index = f"{new_folder_path}ReferenceFiles/rv{str(index)}"
     new_folder_path_plus_index = f"{new_folder_path}rv{str(index)}"
     
-    # The following items are not included in the files
+    **The following items are not included in the files**
     sf_pro_font = '/Users/<your name>/Documents/Reddit_Video_Generator/Fonts/<insert font here>'
     arial_mtsdt_font = '/Users/<your name>/Documents/Reddit_Video_Generator/Fonts/<insert font here>'
     SFProTextReg = '/Users/<your name>/Library/Fonts/<insert font here>'
