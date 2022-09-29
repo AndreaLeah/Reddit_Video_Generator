@@ -2,7 +2,7 @@
 
 
 **Basic Overview:**
-This fully automates screenshots (Selenium Webdriver, Firefox), text to speech conversion (Amazon Polly), and video generation (ffmpeg) for reddit posts. A ytdownload.py file has been included if you would like to source and download your video from eligible YouTube videos. It is set to choose 1080p, and to resize the video to 1080x1920 resolution.
+This fully automates screenshots (Selenium Webdriver, Firefox), text to speech conversion (BeautifulSoup, Amazon Polly), and video generation (ffmpeg) for reddit posts. A ytdownload.py file has been included if you would like to source and download your video from eligible YouTube videos. It is set to choose 1080p, and to resize the video to 1080x1920 resolution.
 
 
 ### **Steps:**
